@@ -1,9 +1,9 @@
 {
-  "name": "gpt4-langchain-pdf-chatbot",
+  "name": "gege_chatbot_devAlert",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "author": "Mayooear<twitter:@mayowaoshin>",
+  "author": "Gezheng Kang",
   "type": "module",
   "scripts": {
     "dev": "next dev",
@@ -27,6 +27,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
     "tailwind-merge": "^1.10.0"
   },
   "devDependencies": {

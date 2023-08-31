@@ -1,9 +1,21 @@
 .main {
   display: flex;
-  flex-direction: column;
+
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+
+  .picSideLeft{
+    width:20vw;
+    height: 50vh;
+    padding-right: 2rem;
+  }
+
+  .picSideRight{
+    width:20vw;
+    height: 50vh;
+    padding-left: 2rem;
+  }
 }
 
 .header {
@@ -259,4 +271,11 @@
     width: 100%;
     text-align: center;
   }
+
+  .pic{
+    width:100vw;
+    height:10vh;
+  }
+
+
 }

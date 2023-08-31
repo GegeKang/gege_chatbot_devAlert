@@ -1,16 +1,16 @@
-# GPT-4 & LangChain - Create a ChatGPT Chatbot for Your PDF Files
+ChatGPT Chatbot for Development Alert
 
-Use the new GPT-4 api to build a chatGPT chatbot for multiple Large PDF files.
+## Introduction
+
+This repository contains the source code for the ChatGPT-based Chatbot developed for Development Alert to let more people obtain knowledge of this organization interactively. The chatbot aims to assist with answering queries, and providing donation information.
 
 Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
 
-[Tutorial video](https://www.youtube.com/watch?v=ih9PBGVVOO4)
+## Features
 
-[Join the discord if you have questions](https://discord.gg/E4Mc77qwjm)
-
-The visual guide of this repo and tutorial is in the `visual guide` folder.
-
-**If you run into errors, please review the troubleshooting section further down this page.**
+Provide information about Development Alert
+Guide users through the donation process
+Answer frequently asked questions
 
 Prelude: Please make sure you have already downloaded node on your system and the version is 18 or greater.
 
@@ -95,5 +95,7 @@ In general, keep an eye out in the `issues` and `discussions` section of this re
 - Retry from scratch with a new Pinecone project, index, and cloned repo.
 
 ## Credit
+
+Frontend of this repo is inspired by [GPT-4 & LangChain - Create a ChatGPT Chatbot for Your PDF Files](https://github.com/mayooear/gpt4-pdf-chatbot-langchain)
 
 Frontend of this repo is inspired by [langchain-chat-nextjs](https://github.com/zahidkhawaja/langchain-chat-nextjs)
